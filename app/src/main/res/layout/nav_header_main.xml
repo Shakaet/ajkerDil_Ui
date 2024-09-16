@@ -3,34 +3,36 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="@dimen/nav_header_height"
-    android:background="@drawable/side_nav_bar"
+    android:background="#0277BD"
     android:gravity="bottom"
     android:orientation="vertical"
-    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingLeft="2dp"
     android:paddingTop="@dimen/activity_vertical_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingBottom="@dimen/activity_vertical_margin"
     android:theme="@style/ThemeOverlay.AppCompat.Dark">
 
-    <ImageView
-        android:id="@+id/imageView"
-        android:layout_marginTop="20dp"
-        android:layout_width="80dp"
-        android:layout_height="80dp"
-        android:contentDescription="@string/nav_header_desc"
-        android:paddingTop="@dimen/nav_header_vertical_spacing"
-        app:srcCompat="@drawable/img" />
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/app_logo"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:src="@drawable/img_1">
+
+    </de.hdodenhof.circleimageview.CircleImageView>
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:paddingTop="@dimen/nav_header_vertical_spacing"
-        android:text="@string/nav_header_title"
+        android:layout_marginStart="30sp"
+        android:text="স্বাগতম"
         android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
 
     <TextView
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/nav_header_subtitle" />
+        android:layout_marginStart="30sp"
+        android:text="লগইন করুন /রেজিস্ট্রেশন করুন
+" />
 </LinearLayout>

@@ -6,16 +6,68 @@
     <group android:checkableBehavior="single">
         <item
             android:id="@+id/nav_home"
-            android:icon="@drawable/ic_menu_camera"
-            android:title="@string/menu_home" />
+            android:icon="@drawable/ic_launcher_foreground"
+            android:title="হোম
+" />
         <item
             android:id="@+id/nav_gallery"
             android:icon="@drawable/ic_menu_gallery"
-            android:title="@string/menu_gallery" />
+            android:title="আমার অর্ডার
+" />
         <item
-            android:id="@+id/nav_slideshow"
+            android:id="@+id/track"
             android:icon="@drawable/ic_menu_slideshow"
-            android:title="@string/menu_slideshow" />
+            android:title="ট্র্যাক অর্ডার
+" />
+        <item
+            android:id="@+id/chat"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="চ্যাট
+" />
+        <item
+            android:id="@+id/support"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="আজকেরডিল সাপোর্ট
+" />
+        <item
+            android:id="@+id/refer"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="রেফার করে আয়
+" />
+        <item
+            android:id="@+id/code"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="এপ্লাই রেফার কোড
+" />
+        <item
+            android:id="@+id/apps"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="মার্চেন্ট অ্যাপ
+" />
+        <item
+            android:id="@+id/rating"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="অ্যাপ রেটিং
+" />
+        <item
+            android:id="@+id/contact"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="যোগাযোগের ঠিকানা
+" />
+        <item
+            android:id="@+id/opinion"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="মতামত/অভিযোগ
+" />
+        <item
+            android:id="@+id/privacy"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="প্রাইভেসি পলিসি
+" />
+        <item
+            android:id="@+id/login"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="লগইন" />
 
 
     </group>
